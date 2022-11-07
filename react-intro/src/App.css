@@ -1,0 +1,76 @@
+* {
+  padding:0;
+  margin:0;
+  border:0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  /*border: 1px solid red;*/
+  }
+
+.App {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(41, 39, 39);
+  color: white;
+  margin: 3vh;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8vh 0;
+}
+
+.topBar img {
+  height: 10vh;
+  margin: 3vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main h1 {
+  width: 70vh;
+  margin: 10vh 0 5vh 10vh;
+  text-align: left;
+  font-size: 13vh;
+}
+
+.main p {
+  width: 70vh;
+  margin: 0 0 0 10vh;
+  text-align: left;
+  font-size: 4vh;
+}
+
+.main button {
+  width: 25vh;
+  height: 10vh;
+  margin: 12vh 0 12vh 10vh;
+  border-radius: 4%;
+  font-size: 4vh;
+  font-weight: bolder;
+  color: rgb(41, 39, 39);
+  
+
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 20vh 15vh 20vh 15vh;
+}
+
+.cards * {
+  width: 30vh;
+  text-align: left;
+}
+
+.cards img {
+  width: 20vh;
+}
